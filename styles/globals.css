@@ -14,3 +14,18 @@ a {
 * {
   box-sizing: border-box;
 }
+
+body::-webkit-scrollbar {
+  width: 5px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background:#ffffff;
+  width:3px;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  /* background:linear-gradient(0deg, #00C8BA -15.32%, #6F27F9 105.88%, #6F27F9 105.88%);     */
+  background: rgb(206, 60, 140);
+  border-radius: 20px;  
+}

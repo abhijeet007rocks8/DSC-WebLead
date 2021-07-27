@@ -25,10 +25,11 @@
                 padding:0 1rem;
                 cursor: pointer;
     
-                ::hover{
+                &:hover{
                     color:#ff0000;
-                    font-size: 1.1rem;
-                    transition: all ease 0.4s;
+                    font-size: 1.05rem;
+                    font-weight: 500;
+                    transition: all ease 0.2s;
                 }
             }
         }

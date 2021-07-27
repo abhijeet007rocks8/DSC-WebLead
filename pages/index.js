@@ -1,8 +1,10 @@
 import Head from 'next/head'
 import About from '../components/About/About'
+import Features from '../components/Features/Features'
 import Footer from '../components/Footer/Footer'
 import Header from '../components/Header/Header'
 import Navbar from '../components/Navbar/Navbar'
+import Testimonial from '../components/Testimonials/Testimonial'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -18,6 +20,8 @@ export default function Home() {
       <main className={styles.main}>
         <Header/>
         <About/>
+        <Features/>
+        <Testimonial/>
       </main>
 
       <footer className={styles.footer}>

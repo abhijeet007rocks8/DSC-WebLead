@@ -38,6 +38,13 @@
             cursor: pointer;
             width: fit-content;
 
+            &:hover{
+                color: #9C69E2;
+                background: #ffffff;
+                font-weight: 600;
+                transition: all ease 0.4s;
+            }
+
             .learnMore{
                 font-size: 13px;
             }

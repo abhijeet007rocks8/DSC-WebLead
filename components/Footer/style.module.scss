@@ -47,6 +47,12 @@
                 padding: 0 0.9rem;
                 cursor: pointer;
 
+                &:hover{
+                    color:#F063B8;
+                    background: #FFFFFF;
+                    transition: all ease 0.4s;
+                }
+
                 .text{
                     font-size: 13px;
                 }
@@ -63,7 +69,14 @@
                 align-items: center;
                 padding: 0 0.7rem;
                 cursor: pointer;
-                
+                color: #212353;
+
+                &:hover{
+                    font-weight: 500;
+                    color:#ff0000;
+                    transition: all ease 0.4s;
+                }
+
                 .text{
                     font-size: 13px;
                 }

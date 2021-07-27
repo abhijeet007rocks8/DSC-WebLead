@@ -16,7 +16,7 @@ function TryOut(){
                 </span>
             <div className={styles.requestdemo}>
                 <span><p className={styles.text}>Request Demo</p></span>
-                <span style={{marginTop:'4px'}}><BsArrowRight color="#212353" fontSize="1.3rem"/></span>
+                <span style={{marginTop:'4px'}}><BsArrowRight fontSize="1.3rem"/></span>
             </div>
 
             </div>

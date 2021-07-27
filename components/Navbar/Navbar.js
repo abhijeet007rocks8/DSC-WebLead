@@ -20,7 +20,7 @@ export default function Navbar() {
             </div>
             <div className={styles.requestdemo}>
                 <span><p className={styles.text}>Request Demo</p></span>
-                <span style={{marginTop:'8px'}}><BsArrowRight color="#212353" fontSize="1.3rem"/></span>
+                <span style={{marginTop:'7px'}}><BsArrowRight fontSize="1.3rem"/></span>
             </div>
 
         </div>

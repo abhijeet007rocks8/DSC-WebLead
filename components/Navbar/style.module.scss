@@ -1,0 +1,52 @@
+.navbar{
+    display:flex;
+    flex-direction: row;
+    width:80%;
+    // justify-content: center;
+    align-items: center;
+    padding:0.7rem 0;
+
+    .left{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width:75%;
+
+        .logo{
+            flex:0.1;
+            padding:0 2rem;
+        }
+    
+        .menu{
+            display: flex;
+            flex-direction: row;
+    
+            .menuitem{
+                padding:0 1rem;
+                cursor: pointer;
+    
+                ::hover{
+                    color:#ff0000;
+                    font-size: 1.1rem;
+                    transition: all ease 0.4s;
+                }
+            }
+        }
+    }
+
+    .requestdemo{
+        justify-self: flex-end;
+        background: #FFFFFF;
+        box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+        border-radius: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0 0.7rem;
+        
+        .text{
+            font-size: 13px;
+        }
+    }
+}

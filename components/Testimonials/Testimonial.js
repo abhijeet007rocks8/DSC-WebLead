@@ -12,7 +12,7 @@ function SlideCard(props){
 
             <div className={styles.profileDetails}>
                 <div className={styles.name}>{props.name}</div>
-                <div className={styles.link}><a href={props.link}>{props.link}</a></div>
+                <div className={styles.link}><a href={props.link} target="_blank" rel="noreferrer" >{props.link}</a></div>
                 <div className={styles.about}>{props.about}</div>
             </div>
         </div>

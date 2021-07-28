@@ -1,0 +1,109 @@
+.testimonial{
+    width:80%;
+    background: #9C69E2;
+    border-radius: 50px;
+    padding: 2rem;
+    padding-left: 6rem;
+    margin:50px 0;        
+    overflow-x: hidden;
+    max-width: 80%;
+
+    .heading{
+        font-size: 35px;
+        text-align: left;
+        color:#FFFFFF;
+    }
+
+    .cardSlider{
+        overflow-x: hidden !important;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        width:95%;
+
+        .slidecard{
+            background: #FFFFFF;
+            box-shadow: 20px 40px 0px rgba(156, 105, 226, 0.3);
+            border-radius: 20px;
+            padding: 4rem 1rem;
+            min-width:580px;
+            flex-wrap: nowrap;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            transition: transform 1.5s ease-in-out;
+            margin-right: 2rem;
+            
+            .profileImg{
+                border-radius: 80px;
+                justify-self: right;
+                margin-right: 1rem;
+            }
+
+            .profileDetails{
+                flex:0.6;
+                // margin-left: 2rem;
+                .name{
+                    font-size: 18px;
+                    color: #212353;
+                    font-weight: 600;
+                }
+
+                .about{
+                    font-size: 13px;
+                    color: #4B5D68;
+                }
+
+                .link{
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #9C69E2;
+                    margin-bottom: 20px
+                }
+
+            }
+        }
+    }
+
+    .last{
+        width: 90%;
+        justify-self: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top:30px;
+
+        .activedots{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-left: 3rem;
+
+            .activedot{
+                background: #F063B8;
+                width:6px;
+                height:6px;
+                margin: 1rem 0.3rem;
+                border-radius: 10px;
+            }
+
+            .dot{
+                background: #FFFFFF;
+                border-radius: 10px;
+                width:4px;
+                height:4px;
+                margin: 1rem 0.3rem;
+            }
+        }
+
+        .arrows{
+            flex:0.3;
+            display: flex;
+            flex-direction: row;
+            cursor: pointer;
+            align-items: center;
+            font-size: 1.3rem;
+        }
+    }
+}
